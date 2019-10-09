@@ -18,6 +18,8 @@
 
             <ImageButton
                 android:layout_width="30dp"
+
+                android:visibility="invisible"
                 android:layout_height="30dp"
                 android:background="@drawable/information"
                 android:layout_marginTop="90dp"
