@@ -10,10 +10,30 @@
         android:roundIcon="@drawable/logobulet"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".isiumkm.umkm6"></activity>
+        <activity android:name=".isiumkm.umkm5" />
+        <activity android:name=".isiumkm.umkm4" />
+        <activity android:name=".isiumkm.umkm3" />
+        <activity android:name=".isiumkm.umkm2" />
+        <activity android:name=".isiumkm.umkm1" />
+        <activity android:name=".isiwisata.wisata6" />
+        <activity android:name=".isiwisata.wisata5" />
+        <activity android:name=".isiwisata.wisata4" />
+        <activity android:name=".isiwisata.wisata3" />
+        <activity android:name=".isiwisata.wisata2" />
+        <activity android:name=".isiwisata.wisata1" />
+        <activity android:name=".isikuliner.kuliner6" />
+        <activity android:name=".isikuliner.kuliner5" />
+        <activity android:name=".isikuliner.kuliner4" />
+        <activity android:name=".isikuliner.kuliner3" />
+        <activity android:name=".isikuliner.kuliner2" />
+        <activity android:name=".isikuliner.kuliner1" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCFD4nNtVJqLzZkm-RbU6y0GxPdTwETm6c"/>
-        <activity android:name=".KontakActivity"></activity>
+            android:value="AIzaSyCFD4nNtVJqLzZkm-RbU6y0GxPdTwETm6c" />
+
+        <activity android:name=".KontakActivity" />
         <activity android:name=".UmkmActivity" />
         <activity android:name=".KulinerActivity" />
         <activity android:name=".WisataActivity" />
