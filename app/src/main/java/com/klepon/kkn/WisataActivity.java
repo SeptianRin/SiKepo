@@ -1,7 +1,12 @@
 package com.klepon.kkn;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Context;
 import android.os.Bundle;
+import android.view.animation.AnimationUtils;
+import android.view.animation.LayoutAnimationController;
+
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -28,7 +33,17 @@ public class WisataActivity extends AppCompatActivity {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
+
     }
+
+//    private void runAnimationAgain(){
+//        final LayoutAnimationController controller =
+//                AnimationUtils.loadLayoutAnimation(this, R.anim.layout_animation_down_to_up);
+
+//        recyclerView.setLayoutAnimation(controller);
+//        recyclerView.getAdapter().notifyDataSetChanged();
+//        recyclerView.scheduleLayoutAnimation();
+//    }
 
     void addData(){
         WisataAL = new ArrayList<>();
