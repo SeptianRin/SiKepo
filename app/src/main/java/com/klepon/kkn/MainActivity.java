@@ -1,21 +1,54 @@
 package com.klepon.kkn;
 
-import android.content.Intent;
-import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.view.WindowManager;
+import android.Manifest;
 
-public class MainActivity extends AppCompatActivity {
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.Bundle;
+
+import com.hololo.tutorial.library.PermissionStep;
+import com.hololo.tutorial.library.Step;
+import com.hololo.tutorial.library.TutorialActivity;
+
+public class MainActivity extends TutorialActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+        addFragment(new Step.Builder().setTitle("This is header")
+                .setContent("This is content")
+                .setBackgroundColor(Color.parseColor("#8BC34A")) // int background color
+                .setDrawable(R.drawable.roadsign) // int top drawable
+                .setSummary("This is summary")
+                .build());
+        addFragment(new Step.Builder().setTitle("This is header")
+                .setContent("This is content")
+                .setBackgroundColor(Color.parseColor("#8BC34A")) // int background color
+                .setDrawable(R.drawable.eattogether) // int top drawable
+                .setSummary("This is summary")
+                .build());
+        addFragment(new Step.Builder().setTitle("This is header")
+                .setContent("This is content")
+                .setBackgroundColor(Color.parseColor("#8BC34A")) // int background color
+                .setDrawable(R.drawable.traveling) // int top drawable
+                .setSummary("This is summary")
+                .build());
+        addFragment(new Step.Builder().setTitle("This is header")
+                .setContent("This is content")
+                .setBackgroundColor(Color.parseColor("#8BC34A")) // int background color
+                .setDrawable(R.drawable.basketba) // int top drawable
+                .setSummary("This is summary")
+                .build());
     }
 
-    public void Masuk(View view) {
+    @Override
+    public void currentFragmentPosition(int position) {
+
+    }
+
+    @Override
+    public void finishTutorial() {
         Intent intent = new Intent(MainActivity.this, HomescreenActivity.class);
         startActivity(intent);
     }
