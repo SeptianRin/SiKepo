@@ -32,7 +32,7 @@ public class kuliner1 extends FragmentActivity implements OnMapReadyCallback {
         float zoomLevel = 15.0f;
         // Add a marker in Sydney, Australia, and move the camera.
         LatLng pongangan = new LatLng(-7.059899,110.367659);
-        mMap.addMarker(new MarkerOptions().position(pongangan).title("Posnkijko KKN"));
+        mMap.addMarker(new MarkerOptions().position(pongangan).title("KULINER PONGANGAN"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(pongangan, zoomLevel));
     }
 }
