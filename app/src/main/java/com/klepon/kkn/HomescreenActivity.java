@@ -55,4 +55,8 @@ public class HomescreenActivity extends AppCompatActivity {
         Intent intent = new Intent(HomescreenActivity.this, KontakActivity.class);
         startActivity(intent);
     }
+
+    public void onBackPressed(){
+        finish();
+    }
 }

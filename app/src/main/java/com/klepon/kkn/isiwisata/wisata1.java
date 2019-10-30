@@ -29,8 +29,8 @@ public class wisata1 extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
         float zoomLevel = 15.0f;
         // Add a marker in Sydney, Australia, and move the camera.
-        LatLng pongangan = new LatLng(-7.059899,110.367659);
-        mMap.addMarker(new MarkerOptions().position(pongangan).title("Wisata PONGANGAN"));
+        LatLng pongangan = new LatLng(-7.054644,110.360365);
+        mMap.addMarker(new MarkerOptions().position(pongangan).title("D'Pongs"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(pongangan, zoomLevel));
     }
 }

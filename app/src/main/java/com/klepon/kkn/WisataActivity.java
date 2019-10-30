@@ -47,7 +47,7 @@ public class WisataActivity extends AppCompatActivity {
 
     void addData(){
         WisataAL = new ArrayList<>();
-        WisataAL.add(new modelWisata("1","Wisata Kali", "Wisatanya sangat bagus"));
+        WisataAL.add(new modelWisata("1","D'Pongs", "Wisata Keluarga"));
         WisataAL.add(new modelWisata("2","Wisata Grojogan", "Dingin Sluur"));
         WisataAL.add(new modelWisata("3","Wisata Hutan Bakau", "Lebat dan bagus"));
         WisataAL.add(new modelWisata("4","Wisata Hutan Jati", "Lebat dan bagus"));

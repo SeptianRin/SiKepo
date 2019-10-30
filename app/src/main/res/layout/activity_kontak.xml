@@ -83,7 +83,7 @@
                         <ImageView
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:src="@drawable/basketba"
+                            android:src="@drawable/phone"
                             android:layout_width="0dp">
 
                         </ImageView>
@@ -92,8 +92,8 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="4"
-                            android:text="Telefon"
-                            android:textSize="40dp"
+                            android:text="Telp. (024)76922081 "
+                            android:textSize="15dp"
                             android:layout_gravity="center"
                             android:gravity="center"/>
 
@@ -117,7 +117,7 @@
                         <ImageView
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:src="@drawable/eattogether"
+                            android:src="@drawable/mail"
                             android:layout_width="0dp">
 
                         </ImageView>
@@ -126,8 +126,8 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="4"
-                            android:text="Email"
-                            android:textSize="40dp"
+                            android:text="kelurahanpongangan@gmail.com"
+                            android:textSize="15dp"
                             android:layout_gravity="center"
                             android:gravity="center"/>
 
@@ -151,7 +151,7 @@
                         <ImageView
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:src="@drawable/traveling"
+                            android:src="@drawable/instagram"
                             android:layout_width="0dp">
 
                         </ImageView>
@@ -160,8 +160,8 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="4"
-                            android:text="Instagram"
-                            android:textSize="40dp"
+                            android:text="\@pongangansquad"
+                            android:textSize="15dp"
                             android:layout_gravity="center"
                             android:gravity="center"/>
 
