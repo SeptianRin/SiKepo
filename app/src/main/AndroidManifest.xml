@@ -40,8 +40,9 @@
         <activity android:name=".LetakActivity" />
         <activity android:name=".ProfileActivity" />s
         <activity android:name=".HomescreenActivity"
-            android:noHistory="true"/>
-        <activity android:name=".MainActivity">
+            />
+        <activity android:name=".MainActivity"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -16,30 +16,22 @@ public class MainActivity extends TutorialActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addFragment(new Step.Builder().setTitle("This is header")
-                .setContent("This is content")
+        addFragment(new Step.Builder().setTitle("Ketahui Kelurahan Pongangan")
+                .setContent("Dengan aplikasi SIKEPO Anda akan mendapatkan perkenalan dari kelurahan Pongangan")
                 .setBackgroundColor(Color.parseColor("#8BC34A")) // int background color
                 .setDrawable(R.drawable.roadsign) // int top drawable
-                .setSummary("This is summary")
                 .build());
-        addFragment(new Step.Builder().setTitle("This is header")
-                .setContent("This is content")
+        addFragment(new Step.Builder().setTitle("Temukan Kuliner Yang Direkomendasikan")
+                .setContent("Ganjal perut Anda dengan makanan makanan yang ada di kelurahan Pongangan")
                 .setBackgroundColor(Color.parseColor("#8BC34A")) // int background color
                 .setDrawable(R.drawable.eattogether) // int top drawable
-                .setSummary("This is summary")
                 .build());
-        addFragment(new Step.Builder().setTitle("This is header")
-                .setContent("This is content")
+        addFragment(new Step.Builder().setTitle("Dapatkan Lokasi Wisata dan UMKM Rekomendasi")
+                .setContent("Temukan banyak HIDDEN TREASURE yang ada di kelurahan Pongangan dengan aplikasi SIKEPO")
                 .setBackgroundColor(Color.parseColor("#8BC34A")) // int background color
                 .setDrawable(R.drawable.traveling) // int top drawable
-                .setSummary("This is summary")
                 .build());
-        addFragment(new Step.Builder().setTitle("This is header")
-                .setContent("This is content")
-                .setBackgroundColor(Color.parseColor("#8BC34A")) // int background color
-                .setDrawable(R.drawable.basketba) // int top drawable
-                .setSummary("This is summary")
-                .build());
+
     }
 
     @Override

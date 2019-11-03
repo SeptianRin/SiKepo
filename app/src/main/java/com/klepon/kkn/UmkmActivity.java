@@ -33,11 +33,11 @@ public class UmkmActivity extends AppCompatActivity {
 
     private void addData() {
         UmkmAL = new ArrayList<>();
-        UmkmAL.add(new modelUMKM("1","aSDH", "Wisatanya sangat bagus"));
-        UmkmAL.add(new modelUMKM("2","asdas", "Dingin Sluur"));
-        UmkmAL.add(new modelUMKM("3","asdacxz", "Lebat dan bagus"));
-        UmkmAL.add(new modelUMKM("4","Dcdscsdc", "Lebat dan bagus"));
-        UmkmAL.add(new modelUMKM("5","Wisata Hutan Cincau", "Lebat dan bagus"));
-        UmkmAL.add(new modelUMKM("6","Wisata Hutan Bakau", "Lebat dan bagus"));
+        UmkmAL.add(new modelUMKM("1","NakRantaw", "Madu murni sumbawa"));
+        UmkmAL.add(new modelUMKM("2","Yanto Bird Farm", "Peternakan burung lovebird"));
+        UmkmAL.add(new modelUMKM("3","Fidyan Futsal", "Tempat futsal yang sangat luas"));
+        UmkmAL.add(new modelUMKM("4","TB Rejo Agung", "Toko bangunan lengkap"));
+        UmkmAL.add(new modelUMKM("5","Mbak Siti Gamis", "Menjual berbagai macam model gamis"));
+        UmkmAL.add(new modelUMKM("6","Dove Cage", "Pembuatan kandang burung dara"));
     }
 }

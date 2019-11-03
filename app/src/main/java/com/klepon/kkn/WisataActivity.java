@@ -47,11 +47,9 @@ public class WisataActivity extends AppCompatActivity {
 
     void addData(){
         WisataAL = new ArrayList<>();
-        WisataAL.add(new modelWisata("1","D'Pongs", "Wisata Keluarga"));
-        WisataAL.add(new modelWisata("2","Wisata Grojogan", "Dingin Sluur"));
-        WisataAL.add(new modelWisata("3","Wisata Hutan Bakau", "Lebat dan bagus"));
-        WisataAL.add(new modelWisata("4","Wisata Hutan Jati", "Lebat dan bagus"));
-        WisataAL.add(new modelWisata("5","Wisata Hutan Cincau", "Lebat dan bagus"));
-        WisataAL.add(new modelWisata("6","Wisata Hutan Bakau", "Lebat dan bagus"));
+        WisataAL.add(new modelWisata("1","D'Pongs", "Tempat berwisata bersama keluarga besar"));
+        WisataAL.add(new modelWisata("2","Keboen Ndalem", "Cocok untuk Anda yang sedang mencari suasana pedesaan ditengah perkotaan"));
+        WisataAL.add(new modelWisata("3","Citra Argo", "Wisata Alam dengan pesona buah 5 benua yang ada didalamnya"));
+        WisataAL.add(new modelWisata("4","Kampung Bonsai", "Kampung tematik kelurahan Pongangan yang penduduknya banyak sebagai pengrajin bonsai"));
     }
 }

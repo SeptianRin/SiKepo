@@ -56,7 +56,5 @@ public class HomescreenActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onBackPressed(){
-        finish();
-    }
+
 }
